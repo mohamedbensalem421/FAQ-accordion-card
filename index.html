@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>FAQ accordion card</title>
+  </head>
+  <body class="flex justify-center items-center h-screen px-[15px] bg-gradient-to-b from-[#a268dd] to-[#6a5eed]">
+    <div class="container rounded-[15px] md:flex md:justify-between md:w-fit bg-white relative">
+      <img class=" max-md:hidden absolute top-[35%] ml-[-100px] z-20" src="./images/illustration-box-desktop.svg" alt="">
+      <div class="design relative overflow-hidden max-md:hidden">
+        <img class="absolute scale-[2] top-[-8%] ml-[-70%]" src="./images/bg-pattern-desktop.svg" alt="">
+        <img class=" relative ml-[-70px] mt-[50px] z-10" src="./images/illustration-woman-online-desktop.svg" alt="">
+      </div>
+      <div class="design md:hidden w-fit m-auto mt-[-90px]">
+        <img class="w-[200px]" src="./images/illustration-woman-online-mobile.svg" alt="">
+        <img class="w-[200px] mt-[-50px]" src="./images/bg-pattern-mobile.svg" alt="">
+      </div>
+      <div class="faq p-[40px] w-[420px] max-md:w-fit">
+        <h1 class="text-xl font-bold max-md:text-center">FAQ</h1>
+        <div class="group py-[20px] border-b-[0.5px] border-gray-500 cursor-pointer">
+          <p class="qst flex items-center gap-[30px] group-hover:text-orange-400">
+            How many team members can i invite ?
+            <img class="arrow ml-auto" src="./images/icon-arrow-down.svg" alt="">
+          </p>
+          <p class="ans text-gray-500 hidden">
+            No more than 2GB. All files in your account must fit your alloted storage space. 
+          </p>
+        </div>
+        <div class="group py-[20px] border-b-[0.5px] border-gray-500 cursor-pointer">
+          <p class="qst flex items-center gap-[30px] group-hover:text-orange-400">
+            What is the maximum file upload size ?
+            <img class="arrow ml-auto" src="./images/icon-arrow-down.svg" alt="">
+          </p>
+          <p class="ans text-gray-500 hidden">
+            No more than 2GB. All files in your account must fit your alloted storage space. 
+          </p>
+        </div>
+        <div class="group py-[20px] border-b-[0.5px] border-gray-500 cursor-pointer">
+          <p class="qst flex items-center gap-[30px] group-hover:text-orange-400">
+            How do i reset my password ?
+            <img class="arrow ml-auto" src="./images/icon-arrow-down.svg" alt="">
+          </p>
+          <p class="ans text-gray-500 hidden">
+            No more than 2GB. All files in your account must fit your alloted storage space. 
+          </p>
+        </div>
+        <div class="group py-[20px] border-b-[0.5px] border-gray-500 cursor-pointer">
+          <p class="qst flex items-center gap-[30px] group-hover:text-orange-400">
+            Can i cancel my subscription ?
+            <img class="arrow ml-auto" src="./images/icon-arrow-down.svg" alt="">
+          </p>
+          <p class="ans text-gray-500 hidden">
+            No more than 2GB. All files in your account must fit your alloted storage space. 
+          </p>
+        </div>
+        <div class="group py-[20px] border-b-[0.5px] border-gray-500 cursor-pointer">
+          <p class="qst flex items-center gap-[30px] group-hover:text-orange-400">
+            Do you provide additional support ?
+            <img class="arrow ml-auto" src="./images/icon-arrow-down.svg" alt="">
+          </p>
+          <p class="ans text-gray-500 hidden">
+            No more than 2GB. All files in your account must fit your alloted storage space. 
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

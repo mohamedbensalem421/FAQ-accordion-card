@@ -1,0 +1,7 @@
+node_modules
+.vscode
+practice
+webfonts
+tailwind.config.js
+input.css
+.DS_Store
